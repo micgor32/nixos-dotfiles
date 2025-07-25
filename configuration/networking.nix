@@ -2,7 +2,7 @@
 
 {
   networking = {
-    hostName = "thinkpad-mdr";
+    hostName = "framework-mg";
     #useDHCP = true;
     networkmanager = {
       enable = true;

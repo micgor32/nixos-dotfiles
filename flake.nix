@@ -2,11 +2,11 @@
   description = "Personal NixOS system config by MDr164";
   
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-22.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/25.05";
     nixpkgs-unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
-    nixos-hardware.url = github:NixOS/nixos-hardware/master;
+    nixos-hardware.url = "github:NixOS/nixos-hardware/master";
     home-manager = {
-      url = "github:nix-community/home-manager/release-22.05";
+      url = "github:nix-community/home-manager/release-25.05";
       inputs.nixpkgs.follows = "nixpkgs";  
     };
   };
@@ -28,7 +28,7 @@
 	    };
 	  })
           ./configuration.nix
-          nixos-hardware.nixosModules.lenovo-thinkpad-t14-amd-gen1
+          nixos-hardware.nixosModules.framework-13-7040-amd
           home-manager.nixosModules.home-manager {
             home-manager = {
               useGlobalPkgs = true;

@@ -31,7 +31,7 @@
   users = {
     mutableUsers = false;
     users.user = {
-      hashedPassword = "$6$a1yirXLkmXTYTOiw$MXLr1vIkeeeDKYGQkyaD/F7TIrzEY/XJ4lfGF8iRgjTDB4Socddwa3TexR5oIUmCe6iuHDsIH7GrJjNqTGD7o/";
+      hashedPassword = "$y$j9T$jIkUX3hs6ZfLak7CJyIZi.$Bl85SdN6MWpEEOzg77U26e7j6/13IDAz8JbCPaOI4m.";
       isNormalUser = true;
       shell = pkgs.zsh;
       extraGroups = [ "wheel" "networkmanager" "video" "audio" "input" "docker" ];
@@ -44,7 +44,7 @@
 
   system = {
     copySystemConfiguration = false;
-    stateVersion = "22.05";
+    stateVersion = "25.05";
   };
   
   xdg.portal = {
