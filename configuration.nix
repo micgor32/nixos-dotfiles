@@ -41,7 +41,7 @@
   programs.zsh.enable = true;
 
   fonts.fonts = with pkgs; [
-    nerd-fonts.FiraCode
+    nerd-fonts-firacode
 	#fonts.override { fonts = [ "FiraCode" ]; })
   ];
 
