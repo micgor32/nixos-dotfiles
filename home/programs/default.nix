@@ -9,7 +9,6 @@
     ./git
     ./go
     ./lazygit
-    ./lsd
     ./neovim
     ./starship
     ./vscodium
