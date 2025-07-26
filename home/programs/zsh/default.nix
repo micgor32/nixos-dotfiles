@@ -8,7 +8,7 @@
       cat = "bat";
       lg = "lazygit";
       ldo = "lazydocker";
-	  gits = "git status"
+	  gits = "git status";
     };
   };
 }
