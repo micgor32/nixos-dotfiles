@@ -40,10 +40,10 @@
 
   programs.zsh.enable = true;
 
-  fonts.fonts = with pkgs; [
-    nerd-fonts-firacode
-	#fonts.override { fonts = [ "FiraCode" ]; })
-  ];
+  #fonts.fonts = with pkgs; [
+  #  nerd-fonts-firacode
+	##fonts.override { fonts = [ "FiraCode" ]; })
+  #];
 
   system = {
     copySystemConfiguration = false;
