@@ -18,7 +18,7 @@
         unstable = nixpkgs-unstable.legacyPackages.${prev.system};
       };
     in {
-      nixosConfigurations.thinkpad-mdr = nixpkgs.lib.nixosSystem {
+      nixosConfigurations.framework-mg = nixpkgs.lib.nixosSystem {
         inherit system;
         modules = [
           ({ config, pkgs, ... }: {
